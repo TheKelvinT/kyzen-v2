@@ -1,0 +1,9 @@
+#project-slider .owl-next,
+#project-slider .owl-prev {
+    background-color: rgba(255, 255, 255, 0.5) !important;
+}
+
+#project-slider .owl-next:hover,
+#project-slider .owl-prev:hover {
+    background-color: rgba(255, 77, 41, 0.80) !important;
+}
