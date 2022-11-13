@@ -1,195 +1,285 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
 
 
-    <!-- Font Awesome -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"rel="stylesheet"/>
-    <link href="https://www.dafontfree.net/embed/ZnV0dXJhLWh2LWJ0LWhlYXZ5JmRhdGEvMjUvZi8xMjU5MTcvRnV0dUh2LnR0Zg" rel="stylesheet" type="text/css"/>
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"rel="stylesheet"/>
-    <!-- Boxicon CDN -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
-    <!-- CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css" />
-    <link rel="stylesheet" href="css/mdb.min.css">
-    <link rel="stylesheet" href="css/boxicons.min.css">
-    <link rel="stylesheet" href="css/owl.carousel.min.css" />
-    <link rel="stylesheet" href="css/owl.theme.default.min.css" />
-    <link rel="stylesheet" href="css/style.css" />
+  <!-- Font Awesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+  <link href="https://www.dafontfree.net/embed/ZnV0dXJhLWh2LWJ0LWhlYXZ5JmRhdGEvMjUvZi8xMjU5MTcvRnV0dUh2LnR0Zg"
+    rel="stylesheet" type="text/css" />
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+  <!-- Boxicon CDN -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/mdb.min.css">
+  <link rel="stylesheet" href="css/boxicons.min.css">
+  <link rel="stylesheet" href="css/owl.carousel.min.css" />
+  <link rel="stylesheet" href="css/owl.theme.default.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
 
-    <title>Kyzen Bina</title>
-  </head>
-  <body>
-    <!-- Sidebar -->
-    <nav id="sidebarMenu" class="collapse d-lg-block sidebar collapse bg-white">
-      <div class="sidebar-brand mx-4  d-flex align-items-center">
-        <a class="navbar-brand" href="index.html">
-          <span>KYZEN | <br>BINA </span>
+  <script src="https://www.google.com/recaptcha/enterprise.js?render=6LeZJf8iAAAAAJHr5yclL2WtKX-O4kK2O26a3bmR"></script>
+  <script>
+    grecaptcha.ready(function () {
+      grecaptcha.execute('6LeZJf8iAAAAAJHr5yclL2WtKX-O4kK2O26a3bmR', { action: 'homepage' })
+        .then(function (token) {
+          document.getElementById('captchaResponse').value = token;
+        });
+    });
+  </script>
+  <title>Kyzen Bina</title>
+</head>
+
+<body>
+  <!-- Sidebar -->
+  <nav id="sidebarMenu" class="collapse d-lg-block sidebar collapse bg-white">
+    <div class="sidebar-brand mx-4  d-flex align-items-center">
+      <a class="navbar-brand" href="index.html">
+        <span>KYZEN | <br>BINA </span>
+      </a>
+    </div>
+    <div class="position-sticky">
+      <div class="list-group list-group-flush mx-3 mt-4">
+        <a href="studio.html" class="list-group-item list-group-item-action py-2 " aria-current="true">
+          <div class="icon-ani">
+            <p><i class='bx bxs-home me-3'></i>
+              <span>Studio</span>
+            </p>
+          </div>
         </a>
-      </div>
-      <div class="position-sticky">
-        <div class="list-group list-group-flush mx-3 mt-4">
-          <a href="studio.html" class="list-group-item list-group-item-action py-2 " aria-current="true">
-            <div class="icon-ani">
-              <p><i class='bx bxs-home me-3'></i>
-                <span>Studio</span></p>
-            </div>
-          </a>
-          <a href="projects.html" class="list-group-item list-group-item-action py-2 mb-4 " aria-current="true">
-            <div class="icon-ani">
-              <i class='bx bxs-building-house' ></i>
-              <span>Projects</span>
-            </div>
-          </a>
-          <a href="gallery.html" class="list-group-item list-group-item-action py-2 mb-4 " aria-current="true">
-            <div class="icon-ani">
-              <i class='bx bxs-home me-3'></i>
-              <span>Gallery</span>
-            </div>
-          </a>
-          <a href="contact-us.html" class="list-group-item list-group-item-action py-2" aria-current="true">
-            <button class="btn">
-              Contact Us
-            </button>
-          </a>
-          
-        </div>
-      </div>
-    </nav>
-    <!-- Sidebar -->
-    
-    <!-- Navbar -->
-    <nav id="main-navbar" class="navbar navbar-expand-lg navbar-light bg-white fixed-top d-lg-none d-xl-block d-xl-none d-xxl-none">
-      <!-- Container wrapper -->
-      <div class="container-fluid 	">
-        <!-- Brand -->
-        <a class="navbar-brand" href="#">
-          <span>KYZEN | BINA </span>
+        <a href="projects.html" class="list-group-item list-group-item-action py-2 mb-4 " aria-current="true">
+          <div class="icon-ani">
+            <i class='bx bxs-building-house'></i>
+            <span>Projects</span>
+          </div>
         </a>
-        <!-- Toggle button -->
-        <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#sidebarMenu" aria-controls="sidebarMenu" aria-expanded="false" aria-label="Toggle navigation">
-          <i class="fas fa-bars"></i>
-        </button>
+        <a href="gallery.html" class="list-group-item list-group-item-action py-2 mb-4 " aria-current="true">
+          <div class="icon-ani">
+            <i class='bx bxs-home me-3'></i>
+            <span>Gallery</span>
+          </div>
+        </a>
+        <a href="contact-us.html" class="list-group-item list-group-item-action py-2" aria-current="true">
+          <button class="btn">
+            Contact Us
+          </button>
+        </a>
+
+      </div>
+    </div>
+  </nav>
+  <!-- Sidebar -->
+
+  <!-- Navbar -->
+  <nav id="main-navbar"
+    class="navbar navbar-expand-lg navbar-light bg-white fixed-top d-lg-none d-xl-block d-xl-none d-xxl-none">
+    <!-- Container wrapper -->
+    <div class="container-fluid 	">
+      <!-- Brand -->
+      <a class="navbar-brand" href="index.html">
+        <span>KYZEN | BINA </span>
+      </a>
+      <!-- Toggle button -->
+      <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#sidebarMenu"
+        aria-controls="sidebarMenu" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-bars"></i>
+      </button>
       <!-- Container wrapper -->
-    </nav>
-    <!-- Navbar -->
+  </nav>
+  <!-- Navbar -->
 
 
-    
+
   <!--Main Navigation-->
-  
+
   <!--Main layout-->
-    <main style="min-height: calc(100vh - 145.92px);">
-      <div class="container-fluid">
-        <div class="row contact-us mb-4">
-          <div class="col-12">
-            <div class="d-flex flex-column justify-content-xl-start px-4 py-4  mt-2 mb-3">
-                <div class="bread-crumb"><a class="directory" href="index.html">Home</a>  &nbsp; <span class="arrow">></span>  &nbsp;  <a class="directory" href="contact-us.html">Contact Us</a></div>
-            </div>
-            <div class="row d-flex justify-content-center">
-                <div class="col-lg-8 col-sm-8">
-                    <div class="d-flex flex-row justify-content-center mb-6 mt-4"><h2>Get your Free <br>Consultation</h2></div>
-                   
-                    <div class="row">
-                        <div class="col-lg-5 mb-4">
-                
-                
-                            <h4 class="text-head border-top border-bottom border-warning border-3 border-opacity-30 py-2 px-2 mb-3">Renovation Details</h4>
-               
-                        <form action="https://formsubmit.co/el/rilefu" method="POST" class="validated-form">
-                       <div class="mb-3 label-own">
-                           <label for="location" class="mb-1">Location</label>
-                           <input type="text" name="Location" class="form-control" id="location" placeholder="Location" required>
-                         </div>
-                       <div class="mb-3 label-own">
-                         <label for="property-type"  class="mb-1">Property Type</label>
-                         <input
-                           type="text"
-                           name="Property-Type"
-                           class="form-control"
-                           id="property-type"
-                           placeholder="Property Type"
-                           required
-                         />
-                       </div>
-                       <div class="mb-3 label-own">
-                        <input type="hidden" name="_subject" value="Kyzen Bina Enquiry">                        
-                           <label for="project-name"  class="mb-1">Property Project Name</label>
-                           <input type="text" name="Project-Name" class="form-control" id="project-name" placeholder="Project Name" required>
-                         </div>
-                         <div class="mb-3 label-own">
-                           <label for="size"  class="mb-1">Size</label>
-                           <input type="text" class="form-control" name="Size" id="size" placeholder="eg: 24 x 70" required>
-                         </div>
-                         <div class="mb-3 label-own">
-                           <label for="budget"  class="mb-1">Budget</label>
-                           <input type="text" class="form-control" name="Budget" id="budget" placeholder="RM 0.00" required>
-                         </div>
-                     </div>
-                        <div class="col-lg-2 mb-4"></div>
-                        <div class="col-lg-5 mb-4">
-                            <h4 class="text-head border-top border-bottom border-warning border-3 border-opacity-30 py-2 px-2 mb-3">Additional Details</h4>
-                <div class="mb-3 label-own">
-                    <label for="Name"  class="mb-1">Name</label>
+  <main style="min-height: calc(100vh - 145.92px);">
+    <div class="container-fluid">
+      <div class="row contact-us mb-4">
+        <div class="col-12">
+          <div class="d-flex flex-column justify-content-xl-start px-4 py-4  mt-2 mb-3">
+            <div class="bread-crumb"><a class="directory" href="index.html">Home</a> &nbsp; <span class="arrow">></span>
+              &nbsp; <a class="directory" href="contact-us.html">Contact Us</a></div>
+          </div>
+          <div class="row d-flex justify-content-center">
+            <div class="col-lg-8 col-sm-8">
+              <div class="d-flex flex-row justify-content-center mb-6 mt-4">
+                <h2>Get your Free <br>Consultation</h2>
+              </div>
+
+              <div class="row">
+                <div class="col-lg-5 mb-4">
+
+
+                  <h4
+                    class="text-head border-top border-bottom border-warning border-3 border-opacity-30 py-2 px-2 mb-3">
+                    Renovation Details</h4>
+
+                  <form action="https://getform.io/f/df84edcd-b0d4-4321-a53e-a7f06755d787" method="POST"
+                    class="validated-form">
+                    <div class="mb-3 label-own">
+                      <label for="location" class="mb-1">Location</label>
+                      <select class="form-select-sm form-select overflow-hidden" aria-label="Default select example"
+                        name="location" required>
+                        <option selected value="">- Choose Location -</option>
+                        <option value="Ampang">Ampang</option>
+                        <option value="Balakong">Balakong</option>
+                        <option value="Bangi">Bangi</option>
+                        <option value="Batang Kali">Batang Kali</option>
+                        <option value="Bukit Beruntung">Bukit Beruntung</option>
+                        <option value="Bukit Jalil">Bukit Jalil</option>
+                        <option value="Cheras">Cheras</option>
+                        <option value="Cyberjaya">Cyberjaya</option>
+                        <option value="Damansara">Damansara</option>
+                        <option value="Dengkil">Dengkil</option>
+                        <option value="Gombak">Gombak</option>
+                        <option value="Ijok">Ijok</option>
+                        <option value="Jugra">Jugra</option>
+                        <option value="Kajang">Kajang</option>
+                        <option value="Kapar">Kapar</option>
+                        <option value="Kepong">Kepong</option>
+                        <option value="Kepong">Klang</option>
+                        <option value="Kuala Kubu Bharu">Kuala Kubu Bharu</option>
+                        <option value="Kuala Selangor">Kuala Selangor</option>
+                        <option value="Meru">Meru</option>
+                        <option value="Morib">Morib</option>
+                        <option value="Meru22">Pandamaran</option>
+                        <option value="Petaling Jaya">Petaling Jaya</option>
+                        <option value="Port Klang">Port Klang</option>
+                        <option value="Puchong">Puchong</option>
+                        <option value="Pulau Carey">Pulau Carey</option>
+                        <option value="Putrajaya">Putrajaya</option>
+                        <option value="Rawang">Rawang</option>
+                        <option value="Rawang">Sabak</option>
+                        <option value="Salak Tinggi">Salak Tinggi</option>
+                        <option value="Sekinchan">Sekinchan</option>
+                        <option value="Selayang">Selayang</option>
+                        <option value="Semenyih">Semenyih</option>
+                        <option value="Serendah">Serendah</option>
+                        <option value="Setapak">Setapak</option>
+                        <option value="Shah Alam">Shah Alam</option>
+                        <option value="Sri Kembangan">Sri Kembangan</option>
+                        <option value="Subang Jaya">Subang Jaya</option>
+                        <option value="Sungai Besar">Sungai Besar</option>
+                        <option value="Tanjung Karang">Tanjung Karang</option>
+                        <option value="Telok Dato">Telok Dato</option>
+                        <option value="Telok Panglima Garang">Telok Panglima Garang</option>
+                        <option value="Ulu Klang">Ulu Klang</option>
+                        <option value="Ulu Yam">Ulu Yam</option>
+                        <option value="Wangsa Maju">Wangsa Maju</option>
+                      </select>
+
+                    </div>
+                    <div class="mb-3 label-own">
+                      <label for="property-type" class="mb-1">Property Type</label>
+                      <select class="form-select-sm form-select overflow-hidden" aria-label="Default select example"
+                        name="Property-Type" required>
+                        <option selected value="">- Choose Property Type -</option>
+                        <option value="Apartment">Apartment</option>
+                        <option value="Bangalow">Bangalow</option>
+                        <option value="Commercial">Commercial</option>
+                        <option value="Condominium">Condominium</option>
+                        <option value="Hotel">Hotel</option>
+                        <option value="Semi-Detached">Semi-Detached</option>
+                        <option value="Terrace">Terrace</option>
+                      </select>
+                    </div>
+                    <div class="mb-3 label-own">
+                      <input type="hidden" name="_subject" value="Kyzen Bina Enquiry">
+                      <label for="project-name" class="mb-1">Property Project Name</label>
+                      <input type="text" name="Project-Name" class="form-control" id="project-name"
+                        placeholder="Project Name" required>
+                    </div>
+                    <div class="mb-3 label-own">
+                      <label for="size" class="mb-1">Size</label>
+                      <select class="form-select-sm form-select overflow-hidden" aria-label="Default select example"
+                        name="size" required>
+                        <option selected value="">- Choose Property Size -</option>
+                        <option value="Below 500sqft "> Below 500sqft </option>
+                        <option value="500 - 1,000 sqft">500 - 1,000 sqft</option>
+                        <option value="1,000 - 2,000 sqf">1,000 - 2,000 sqft</option>
+                        <option value="2,000 - 3,000 sqft">2,000 - 3,000 sqft</option>
+                        <option value="3,000 - 5,000 sqft">3,000 - 5,000 sqft</option>
+                        <option value="Above 5,000 sqf">Above 5,000 sqft</option>
+                      </select>
+                    </div>
+                    <div class="mb-3 label-own">
+                      <label for="budget" class="mb-1">Renovation Budget</label>
+                      <select class="form-select-sm form-select overflow-hidden" aria-label="Default select example"
+                        name="budget" required>
+                        <option selected value="">- Choose Renovation Budget -</option>
+                        <option value="Under RM 20k"> Under RM 20k </option>
+                        <option value="RM 20k-RM 50k"> RM 20k-RM 50k </option>
+                        <option value="RM 50k - RM100k"> RM 50k - RM100k </option>
+                        <option value=" RM 100k - RM 200k "> RM 100k - RM 200k </option>
+                        <option value="RM 200k - RM 300k"> RM 200k - RM 300k </option>
+                        <option value="RM 400k - RM 500k"> RM 400k - RM 500k </option>
+                        <option value="RM 500k & Above"> RM 500k & Above </option>
+                      </select>
+                    </div>
+                </div>
+                <div class="col-lg-2 mb-4"></div>
+                <div class="col-lg-5 mb-4">
+                  <h4
+                    class="text-head border-top border-bottom border-warning border-3 border-opacity-30 py-2 px-2 mb-3">
+                    Additional Details</h4>
+                  <div class="mb-3 label-own">
+                    <label for="Name" class="mb-1">Name</label>
                     <input type="text" class="form-control" id="name" name="Name" placeholder="Name" required>
                   </div>
-                
-                <div class="mb-3 label-own">
-                  <label for="email"  class="mb-1">E-Mail</label>
-                  <input
-                    type="email"
-                    class="form-control"
-                    id="email"
-                    name="Email"
-                    placeholder="E-Mail"
-                    required
-                  />
-                </div>
-                <div class="mb-3 label-own">
-                    <label for="phone-no"  class="mb-1">Phone Number</label>
-                    <input type="text" class="form-control" name="phone-no" id="phone-no" placeholder="Phone no." required>
-                </div>
-                <input type="hidden" name="_template" value="table">
-                <input type="hidden" name="_next" value="https://yourdomain.co/thanks.html?param1=value&param2=value">
+
+                  <div class="mb-3 label-own">
+                    <label for="email" class="mb-1">E-Mail</label>
+                    <input type="email" class="form-control" id="email" name="Email" placeholder="E-Mail" required />
+                  </div>
+                  <div class="mb-3 label-own">
+                    <label for="phone-no" class="mb-1">Phone Number</label>
+                    <input type="text" class="form-control" name="phone-no" id="phone-no" placeholder="Phone no."
+                      required>
+                  </div>
+                  <input type="hidden" name="_template" value="table">
+                  <input type="hidden" id="captchaResponse" name="g-recaptcha-response">
+                  <input type="hidden" name="_next" value="https://yourdomain.co/thanks.html?param1=value&param2=value">
 
 
-                <br>    
-                <div class="mb-2 label-own">
-                    <div class="disclaimer">**By clicking submit, means you have agreed to the terms and conditions stated within the clause.</div>
-                    
+                  <br>
+                  <div class="mb-2 label-own">
+                    <div class="disclaimer">**By clicking submit, means you have agreed to the terms and conditions
+                      stated within the clause.</div>
+
+                  </div>
+
+                  <button type="submit" id="submit-btn" class="btn shadow-p3">Submit</button>
                 </div>
-                   
-                    <button type="submit" id="submit-btn"class="btn shadow-p3" 
-                    >Submit</button>
-                        </div>
-                    </div>
-                    
-                </div>
-              </form>
+              </div>
+
             </div>
-          
-        
-        
-            
-               
+            </form>
           </div>
-        </div>    
+
+
+
+
+
+        </div>
       </div>
-    </main>
+    </div>
+  </main>
   <!--Main layout-->
 
- <!-- Footer -->
-<footer class="text-center text-lg-start text-muted sticky-bottom">
+  <!-- Footer -->
+  <footer class="text-center text-lg-start text-muted sticky-bottom">
     <section class="">
       <div class="container text-center text-md-start pt-4">
         <!-- Grid row -->
-        <div class="row mt-3 d-flex justify-content-between">
+        <div class="row d-flex justify-content-between">
           <!-- Grid column -->
           <div class="col-md-3 col-lg-4 col-xl-3 mb-4">
             <!-- Content -->
@@ -202,10 +292,11 @@
             </p>
           </div>
           <!-- Grid column -->
-  
+
           <!-- Grid column -->
-          <div class="rights footer-content col-md-4 col-lg-3 col-xl-3 mb-md-0 mb-4 mt-auto"> 
-              <span class="copyright-text"><i class='bx bxl-instagram-alt' ></i>&nbsp;<i class='bx bxl-facebook-circle'></i>&nbsp; © 2022 All Rights Reserved Kyzen Bina</span>
+          <div class="rights footer-content col-md-4 col-lg-3 col-xl-3 mb-md-0 mb-4 mt-auto">
+            <span class="copyright-text"><i class='bx bxl-instagram-alt'></i>&nbsp;<i
+                class='bx bxl-facebook-circle'></i>&nbsp; © 2022 All Rights Reserved Kyzen Bina</span>
           </div>
           <!-- Grid column -->
         </div>
@@ -218,16 +309,18 @@
 
 
 
-    <script src="js/jquery.min.js"></script>
-    <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="js/mdb.min.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <!-- <script src="https://www.google.com/recaptcha/api.js"></script>
-    <script>
-      function onSubmit(token) {
-        document.getElementById("submit-btn").submit();
-      }
-    </script> -->
-    <script src="js/app.js"></script>
-  </body>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/mdb.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"
+    integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk"
+    crossorigin="anonymous"></script>
+
+  <script src="js/app.js"></script>
+</body>
+
 </html>

@@ -22,22 +22,58 @@ $(".share-popup").click(function () {
 });
 
 $(() =>
-  $("#ShareButton").on("click", () =>
-    navigator.clipboard.writeText(window.location.href)
+  $("#balau-house").on("click", () =>
+    navigator.clipboard.writeText('http://kyzenbina.com.my/projects/balau-house')
   )
 );
 
-function copy() {
-  var Url = document.getElementById("box");
-  Url.value = window.location.href;
-  Url.focus();
-  Url.select();
-  document.getElementById("custom-tooltip").style.display = "inline";
-  document.execCommand("copy");
-  setTimeout(function () {
-    document.getElementById("custom-tooltip").style.display = "none";
-  }, 1000);
-}
+$(() =>
+  $("#sri-hartamas-house").on("click", () =>
+    navigator.clipboard.writeText('http://kyzenbina.com.my/projects/sri-hartamas-house')
+  )
+);
+
+$(() =>
+  $("#showcase-hotel").on("click", () =>
+    navigator.clipboard.writeText('http://kyzenbina.com.my/projects/showcase-hotel')
+  )
+);
+
+$(() =>
+  $("#luma-hotel").on("click", () =>
+    navigator.clipboard.writeText('http://kyzenbina.com.my/projects/taman-pantai-house')
+  )
+);
+
+$(() =>
+  $("#Birch").on("click", () =>
+    navigator.clipboard.writeText('http://kyzenbina.com.my/projects/birch')
+  )
+);
+
+$(() =>
+  $("#Birch").on("click", () =>
+    navigator.clipboard.writeText('http://kyzenbina.com.my/projects/birch')
+  )
+);
+
+$(() =>
+  $("#Birch").on("click", () =>
+    navigator.clipboard.writeText('http://kyzenbina.com.my/projects/birch')
+  )
+);
+
+// function copy() {
+//   var Url = document.getElementById("box");
+//   Url.value = href;
+//   Url.focus();
+//   Url.select();
+//   document.getElementById("custom-tooltip").style.display = "inline";
+//   document.execCommand("copy");
+//   setTimeout(function () {
+//     document.getElementById("custom-tooltip").style.display = "none";
+//   }, 1000);
+// }
 
 const popoverTriggerList = document.querySelectorAll(
   '[data-bs-toggle="popover"]'

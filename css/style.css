@@ -82,6 +82,7 @@
 @media (max-width: 991px) {
     .sidebar {
         width: 100%;
+        height: 300px
     }
 }
 
@@ -220,19 +221,19 @@ footer .rights {
 /* Carousel */
 @media (min-width: 991px) {
     .carousel-item img {
-        max-height: calc(100vh - 162px);
+        max-height: calc(100vh - 146px);
     }
 }
 
 @media (max-width: 991px) {
     .carousel-item img {
-        min-height: calc(100vh - 106px);
+        min-height: calc(100vh - 90px);
     }
 }
 
 @media (max-width: 767px) {
     .carousel-item img {
-        min-height: calc(100vh - 143px);
+        min-height: calc(100vh - 73px);
     }
 }
 
@@ -330,9 +331,14 @@ footer .rights {
     box-shadow: 0 7px 14px rgba(0, 0, 0, 0.5);
 }
 
-.form-control:focus {
+.form-control:focus,
+.form-select:focus {
     border-color: #F0E100;
     box-shadow: 0 0 0 0.2rem rgba(240, 216, 0, 0.25);
+}
+
+.form-select {
+    max-height: 100px !important;
 }
 
 /* Studio */
@@ -469,7 +475,7 @@ footer .rights {
     opacity: 1;
     left: -20px;
     transform: rotate(0deg);
-    transition-delay: 0.25s;
+    transition-delay: 0.18s;
 
 }
 
@@ -477,7 +483,7 @@ footer .rights {
     opacity: 1;
     left: -60px;
     transform: rotate(0deg);
-    transition-delay: .50s;
+    transition-delay: .36s;
 
 }
 
@@ -485,7 +491,7 @@ footer .rights {
     opacity: 1;
     left: -100px;
     transform: rotate(0deg);
-    transition-delay: .75s;
+    transition-delay: .54s;
 
 }
 
@@ -493,7 +499,7 @@ footer .rights {
     opacity: 1;
     left: -140px;
     transform: rotate(0deg);
-    transition-delay: 1.0s;
+    transition-delay: .72s;
 
 }
 

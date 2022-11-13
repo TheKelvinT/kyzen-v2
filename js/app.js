@@ -57,3 +57,16 @@ $(".imglist img").click(function () {
     $images.index(this)
   );
 });
+
+const element = document.querySelector('select');
+
+element.addEventListener('mousedown', function () {
+  this.size = 7;
+});
+element.addEventListener('change', function () {
+  this.blur();
+});
+element.addEventListener('blur', function () {
+  this.size = 0;
+});
+
